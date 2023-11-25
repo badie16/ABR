@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+body {
+  font: 100% Verdana, Arial, Helvetica, sans-serif;
+  /*background: #666666; */
+  margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+  padding: 0;
+  text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+  color: #000000;
+}
+
+.VisualizationMainPage #mainContent {
+  background: #e1e1e1;
+  height: calc(100% - 60px);
+}
+
+.VisualizationMainPage #container {
+  background: #ffffff;
+  /*margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+  text-align: left; /* this overrides the text-align: center on the body element. */
+}
+
+.VisualizationMainPage #algoControlSection {
+  background: #ddeedd;
+  color: #000000;
+  width: 350px;
+  padding-top: 50px;
+  padding-left: 10px;
+}
+
+.VisualizationMainPage #generalAnimationControlSection {
+  background: #ddeedd;
+  color: #006600;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.VisualizationMainPage #header {
+  background: #006633;
+  color: #ffcc33;
+  padding: 0 10px 0 20px;
+}
+
+.VisualizationMainPage #header A:visited {
+  text-decoration: none;
+  color: #ffcc33;
+}
+
+.VisualizationMainPage #header h1 {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.VisualizationMainPage #header A:link {
+  text-decoration: none;
+  color: #ffcc33;
+}
+
+.VisualizationMainPage #container {
+  background: #ffffff;
+  margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+  text-align: left; /* this overrides the text-align: center on the body element. */
+}
+.VisualizationMainPage #mainContent h1 {
+  padding: 0 20px;
+  background: #ffffff;
+  color: #006633;
+}
+
+.VisualizationMainPage #mainContent h2 {
+  padding: 0 20px;
+  background: #ffffff;
+  color: #006633;
+}
+
+.VisualizationMainPage #mainContent h3 {
+  padding: 0 20px;
+  background: #ffffff;
+  color: #006633;
+}
+
+.VisualizationMainPage header {
+  padding: 20px;
+  background: #009688;
+  color: #ffffff;
+  padding: 20px;
+  background: #009688;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+input {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 20px;
+}
+input[type="Button"] {
+  background: #2196f3;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  min-width: 100px;
+}
+#generalAnimationControlSection input[type="Button"] {
+  background: #e91e63;
+}
+#generalAnimationControlSection .ui-slider-horizontal {
+  background-color: #e91e63;
+}
+EM {
+  text-decoration: bold;
+}
+.flex {
+  display: flex;
+  height: calc(100vh - 142px);
+}
+table#AlgorithmSpecificControls {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+canvas {
+  background-color: #fff;
+}
+.canvas {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input[type="Text"] {
+  outline: none;
+  padding: 8px 10px;
+  border: 2px solid #009688;
+}
