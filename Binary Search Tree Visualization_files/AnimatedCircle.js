@@ -29,11 +29,11 @@ var AnimatedCircle = function(objectID, objectLabel)
 {
 	this.objectID = objectID;
 	this.label = objectLabel;
-	this.radius = 20;
+	this.radius = 30;
 	this.thickness = 3;
 	this.x = 0;
 	this.y = 0;
-	this.alpha = 1.0;
+	this.alpha = 4.0;
 	this.addedToScene = true;
         this.highlightIndex = -1;
 /*	this.foregroundColor  = '#007700';
@@ -107,7 +107,7 @@ AnimatedCircle.prototype.draw = function(ctx)
 	ctx.fill();
 	ctx.stroke();
 	ctx.textAlign = 'center';
-	ctx.font         = '10px sans-serif';
+	ctx.font         = '14px sans-serif';
 	ctx.textBaseline   = 'middle'; 
 	ctx.lineWidth = 1;
 	ctx.fillStyle = this.foregroundColor;
